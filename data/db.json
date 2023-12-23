@@ -1,28 +1,61 @@
 {
+  "users": [
+    {
+      "id": "user1",
+      "password": "MTIzNA==",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsIm5hbWUiOiJKb2huIERvZSIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODkvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3ROYW1lIjoiaGFtemEiLCJsYXN0TmFtZSI6ImFsYW91aSIsImVtYWlsIjoiaGFtemFAZ21haWwuY29tIiwicm9sZSI6WyJVU0VSIl19.PXqZnLUN2Apn0PDH-h6adKDun68JIsdPQxhhtpPL-KE"
+    },
+    {
+      "id": "user2",
+      "password": "MTIzNA==",
+      "roles": [
+        "USER"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsIm5hbWUiOiJKb2huIERvZSIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODkvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3ROYW1lIjoiaGFtemEiLCJsYXN0TmFtZSI6ImFsYW91aSIsImVtYWlsIjoiaGFtemFAZ21haWwuY29tIiwicm9sZSI6WyJVU0VSIl19.PXqZnLUN2Apn0PDH-h6adKDun68JIsdPQxhhtpPL-KE"
+    },
+    {
+      "id": "user3",
+      "password": "MTIzNA==",
+      "roles": [
+        "USER",
+        "ADMIN"
+      ],
+      "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMSIsIm5hbWUiOiJKb2huIERvZSIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODkvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3ROYW1lIjoiaGFtemEiLCJsYXN0TmFtZSI6ImFsYW91aSIsImVtYWlsIjoiaGFtemFAZ21haWwuY29tIiwicm9sZSI6WyJVU0VSIl19.PXqZnLUN2Apn0PDH-h6adKDun68JIsdPQxhhtpPL-KE"
+    }
+  ],
   "products": [
     {
-      "id": 2,
-      "name": "Printer",
-      "price": 3200,
-      "checked": false
-    },
-    {
-      "id": 4,
-      "name": "Laptop",
-      "price": 10500,
-      "checked": false
-    },
-    {
-      "name": "test",
-      "price": "1000",
+      "name": "printer",
+      "price": "6000",
       "checked": true,
-      "id": 5
+      "id": 7
     },
     {
-      "name": "test2",
-      "price": "2000",
+      "name": "printer",
+      "price": "12000",
       "checked": false,
-      "id": 6
+      "id": 8
+    },
+    {
+      "name": "printer",
+      "price": "200",
+      "checked": true,
+      "id": 9
+    },
+    {
+      "name": "laptop sumsung",
+      "price": "20000",
+      "checked": false,
+      "id": 10
+    },
+    {
+      "name": "produit x ",
+      "price": "2000",
+      "checked": true,
+      "id": 11
     }
   ]
 }

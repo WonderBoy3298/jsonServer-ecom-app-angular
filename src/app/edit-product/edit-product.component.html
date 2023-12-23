@@ -1,10 +1,12 @@
-  <div class="p-3">
+<div class="card">
   <div class="card">
-    <div class="card-body">
+    <div class="card-header">
+      Product Id : {{productId}}
+    </div>
+    <div class="card-body" *ngIf="formGroup">
       <div class="row">
-        <div class="col-md-6">
-          {{productForm.value | json}}
-          <form [formGroup]="productForm" (ngSubmit)="saveProduct()">
+        <div class="col-md-6">{{formGroup.value | json}}
+          <form [formGroup]="formGroup" (ngSubmit)="updateProduct()">
             <div class="mb-3">
               <label class="form-label">Name</label>
               <input class="form-control"  formControlName="name">
@@ -21,11 +23,10 @@
               <label>Note</label>
               <input>
             </div>
-            <button [disabled]="!productForm.valid"  class="btn btn-success"> Save </button>
+            <button [disabled]="!formGroup.valid"  class="btn btn-success"> Save </button>
           </form>
         </div>
       </div>
     </div>
   </div>
-
 </div>
